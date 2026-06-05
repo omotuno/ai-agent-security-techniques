@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Wrapper to run Python scripts with the correct path and dependencies.
+#
+# Usage:
+#   ./run demos/01-blast-radius/attack.py
+#   ./run demos/01-blast-radius/verify_attack.py
+#   ./run -m demos.seed_data
+#
+# Equivalent to:
+#   PYTHONPATH=. uv run --project agent python <args>
+
+set -euo pipefail
+cd "$(dirname "$0")"
+exec env PYTHONPATH=. uv run --project agent python "$@"

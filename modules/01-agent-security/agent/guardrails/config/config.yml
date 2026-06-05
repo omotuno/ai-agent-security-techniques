@@ -1,0 +1,27 @@
+models:
+  - type: main
+    engine: openai
+    model: gpt-4o-2024-08-06
+
+rails:
+  input:
+    flows:
+      - check jailbreak
+      - guardrailsai check input $validator="guardrails_pii"
+
+  output:
+    flows:
+      - guardrailsai check output $validator="guardrails_pii"
+
+  config:
+    # ML-based jailbreak detection using perplexity heuristics
+    jailbreak_detection:
+      length_per_perplexity_threshold: 89.79
+      prefix_suffix_perplexity_threshold: 1845.65
+
+    # PII detection and redaction
+    guardrails_ai:
+      validators:
+        - name: guardrails_pii
+          parameters:
+            entities: ["phone_number", "email", "ssn", "money"]

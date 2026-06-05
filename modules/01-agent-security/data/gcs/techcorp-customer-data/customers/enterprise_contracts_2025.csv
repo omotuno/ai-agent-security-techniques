@@ -1,0 +1,9 @@
+customer_id,company_name,contract_value,start_date,end_date,payment_terms,primary_contact,contact_email,contact_phone
+CUST-001,Acme Industries,450000,2025-01-15,2026-01-14,Net 30,James Wilson,j.wilson@acme-ind.com,+1-555-0142
+CUST-002,GlobalTech Solutions,1200000,2025-03-01,2027-02-28,Net 60,Sarah Chen,s.chen@globaltech.io,+1-555-0198
+CUST-003,Pinnacle Financial Group,780000,2025-02-10,2026-02-09,Net 45,Robert Davies,r.davies@pinnaclefg.com,+1-555-0234
+CUST-004,Vertex Healthcare,2100000,2025-04-01,2028-03-31,Net 30,Maria Gonzalez,m.gonzalez@vertexhc.org,+1-555-0301
+CUST-005,Atlas Manufacturing,560000,2025-01-20,2026-01-19,Net 30,Thomas Park,t.park@atlasmfg.com,+1-555-0377
+CUST-006,Horizon Media Corp,890000,2025-05-01,2026-04-30,Net 45,Linda Okafor,l.okafor@horizonmedia.co,+1-555-0412
+CUST-007,Sterling Logistics,340000,2025-06-15,2026-06-14,Net 30,Kevin Murphy,k.murphy@sterlinglog.com,+1-555-0489
+CUST-008,Nexus Biotech,3500000,2025-03-15,2028-03-14,Net 90,Dr. Aisha Patel,a.patel@nexusbio.com,+1-555-0523

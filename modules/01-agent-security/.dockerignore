@@ -1,0 +1,8 @@
+.git/
+demos/
+*.md
+.env*
+.claude/
+agent/.venv/
+**/__pycache__/
+**/*.pyc

@@ -1,0 +1,9 @@
+customer_id,full_name,email,phone,ssn_last4,billing_address,credit_card_last4,account_status
+CUST-001,James Wilson,j.wilson@acme-ind.com,+1-555-0142,4532,742 Innovation Dr Suite 200 Austin TX 78701,8891,active
+CUST-002,Sarah Chen,s.chen@globaltech.io,+1-555-0198,7218,1500 Market St Floor 12 San Francisco CA 94103,3347,active
+CUST-003,Robert Davies,r.davies@pinnaclefg.com,+1-555-0234,1956,200 Park Ave Floor 8 New York NY 10166,6623,active
+CUST-004,Maria Gonzalez,m.gonzalez@vertexhc.org,+1-555-0301,8843,500 Memorial Dr Suite 400 Houston TX 77007,2210,active
+CUST-005,Thomas Park,t.park@atlasmfg.com,+1-555-0377,3367,8800 Industrial Blvd Detroit MI 48209,5578,active
+CUST-006,Linda Okafor,l.okafor@horizonmedia.co,+1-555-0412,6091,350 Hudson St Floor 6 New York NY 10014,9934,active
+CUST-007,Kevin Murphy,k.murphy@sterlinglog.com,+1-555-0489,2745,1200 Harbor Way Long Beach CA 90802,4412,past_due
+CUST-008,Dr. Aisha Patel,a.patel@nexusbio.com,+1-555-0523,5183,300 Longwood Ave Boston MA 02115,7756,active

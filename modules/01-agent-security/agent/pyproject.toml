@@ -1,0 +1,29 @@
+[project]
+name = "techcorp-helpdesk-agent"
+version = "0.1.0"
+description = "AI-powered IT helpdesk agent — used in the AI Security Course demos"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.4.0",
+    "langchain-openai>=0.4.0",
+    "langgraph>=0.4.0",
+    "fastapi>=0.115.6",
+    "uvicorn>=0.34.0",
+    "google-cloud-firestore>=2.19.0",
+    "google-cloud-storage>=2.19.0",
+    "google-cloud-secret-manager>=2.21.1",
+    "firebase-admin>=6.6.0",
+    "nemoguardrails>=0.11.0",
+    "pydantic>=2.10.4",
+    "requests>=2.32.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+    "pytest-timeout>=2.3",
+    "pytest-xdist>=3.5",
+    "httpx>=0.28",
+    "python-dotenv>=1.0",
+]
